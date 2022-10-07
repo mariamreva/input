@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	background-color: blue;
+	color: white;
+}
+ h2{
+ 	font-size: 20px;
+ 	margin-top: 100px;
+ 	margin-bottom: 20px;
+ }
+ body{
+ 	margin-left: 20px;
+ 	margin-right: 60px;
+ }
+ .contact{
+ 	display: grid;
+ 	grid-template-areas: "firsthalf secondhalf";
+ 	grid-column-gap: 250px;
+ }
+ .firsthalf, .firsthalf p, .firsthalf iframe, .firsthalf .us, .firsthalf span{
+ 	grid-area: firsthalf;
+ }
+ .secondhalf, .secondhalf form, .secondhalf button, .secondhalf span{
+ 	grid-area: secondhalf;
+ }
+ .firsthalf p{
+ 	width: 400px;
+ 	margin-bottom: 40px;
+ 	line-height: 1.3;
+ 	font-size: 14px;
+ }
+ iframe{
+ 	width: 400px;
+ 	height: 200px;
+ }
+ .us{
+ 	width: 500px;
+ 	display: flex;
+ 	margin-top: 40px;
+ 	margin-bottom: 215px;
+ }
+ .us img{
+ 	width: 50px;
+ 	height: 50px;
+ 	padding: 16px;
+ 	background-color: white;
+ 	margin-right: 10px;
+ }
+ .us, .call {
+	display: flex;
+}
+.call{
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 50px;
+}
+ .copy{
+ 	font-size: 14px;
+ }
+.form{
+ 	display: block;
+ }
+.button {
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 150px;
+}
+.lovesm, .love {
+	display: flex;
+}
+.lovesm, .smart{
+	display: flex;
+}
+.lovesm{
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.love, span{
+	display: flex;
+}
+.love{
+	margin-right: 20px;
+	justify-content: space-between;
+	align-items: center;
+}
+.love span{
+	margin-right: 5px;
+	font-size: 14px;
+}
+.smart img{
+	width: 80px;
+	height: 24px;
+}
+.love img{
+	width: 24px;
+	height: 24px;
+}
+input[type=text] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+input[type=email] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+input[type=tel] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.write input{
+  width: 100%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: blue;
+  resize: none;
+}
+.formrow, .username, .mail, .write, .mobile{
+	display: block;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.username, label, input{
+	display: block;
+}
+.formrow input{
+	margin-bottom: 20px;
+}
+.formrow label{
+	margin-bottom: 20px;
+}
+.formrow{
+	margin-top: 40px;
+}
+
